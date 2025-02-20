@@ -1,6 +1,5 @@
-/* Register.css */
 
-/* Fondo general */
+
 .register-container {
     display: flex;
     justify-content: center;
@@ -10,7 +9,7 @@
     font-family: 'Arial', sans-serif;
   }
   
-  /* Tarjeta de registro */
+
   .register-card {
     background-color: #ffffff;
     border-radius: 12px;
@@ -22,7 +21,7 @@
     box-sizing: border-box;
   }
   
-  /* Título */
+  
   .register-title {
     font-size: 28px;
     color: #333;
@@ -30,21 +29,21 @@
     font-weight: bold;
   }
   
-  /* Texto de error */
+  
   .error-text {
     color: #d32f2f;
     font-size: 14px;
     margin-bottom: 15px;
   }
   
-  /* Formulario */
+  
   .register-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
   
-  /* Contenedor de los inputs */
+  
   .input-group {
     display: flex;
     flex-direction: column;
@@ -62,7 +61,7 @@
     box-sizing: border-box;
   }
   
-  /* Botón de registro */
+  
   .register-button {
     padding: 12px;
     border: none;
@@ -80,9 +79,7 @@
     background-color: #388e3c;
   }
 
-  /* Register.css */
-
-/* Estilo para el enlace de inicio de sesión */
+  
 .login-link {
   margin-top: 15px;
   font-size: 14px;
@@ -99,7 +96,6 @@
   text-decoration: underline;
 }
   
-  /* Animación de icono de usuario (si se usa) */
   .register-card:before {
     content: url('https://img.icons8.com/ios/50/000000/user.png');
     display: block;
@@ -110,7 +106,6 @@
     animation: iconAnimation 1s ease-out forwards;
   }
   
-  /* Animación de icono de usuario */
   @keyframes iconAnimation {
     0% {
       transform: scale(0);
