@@ -1,4 +1,4 @@
-/* Contenedor principal */
+
 .security-box-container {
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     background-color: #f5f5f5;
   }
   
-  /* Título centrado */
+  
   .security-box-title {
     text-align: center;
     font-size: 24px;
@@ -16,24 +16,21 @@
     color: #333;
   }
   
-  /* Contenedor de paneles (lista y detalles) */
   .security-box-panels {
     display: flex;
     flex: 1;
-    gap: 20px; /* Espacio entre los paneles */
+    gap: 20px; 
   }
   
-  /* Panel izquierdo (lista de cuentas) */
   .security-box-list {
     flex: 1;
     background-color: white;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Scroll si hay muchas cuentas */
+    overflow-y: auto; 
   }
   
-  /* Estilo para cada cuenta en la lista */
   .security-box-account {
     padding: 10px;
     border-bottom: 1px solid #eee;
@@ -45,7 +42,6 @@
     background-color: #f9f9f9;
   }
   
-  /* Panel derecho (detalles de la cuenta) */
   .security-box-details {
     flex: 1;
     background-color: white;
@@ -54,7 +50,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Estilo para los detalles de la cuenta */
   .account-details {
     margin-top: 20px;
   }
@@ -65,7 +60,6 @@
     color: #555;
   }
   
-  /* Botón para crear nueva credencial */
   .create-credential-button {
     margin-bottom: 20px;
     background-color: #4caf50;
