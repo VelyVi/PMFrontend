@@ -1,4 +1,4 @@
-/* Contenedor principal */
+
 .login-container {
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
     font-family: 'Arial', sans-serif;
   }
   
-  /* Tarjeta de login */
+  
   .login-card {
     background-color: white;
     padding: 40px;
@@ -19,7 +19,7 @@
     text-align: center;
   }
   
-  /* Cabecera */
+  
   .login-header {
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     color: #333;
   }
   
-  /* Contenedor del icono del candado */
+  
   .lock-icon {
     font-size: 50px;
     color: #4caf50;
@@ -42,7 +42,7 @@
   
   .lock-icon.unlock {
     transform: rotate(180deg);
-    color: #388e3c; /* Color verde más oscuro para indicar que se desbloqueó */
+    color: #388e3c; 
   }
   
   .lock-icon i {
@@ -50,26 +50,26 @@
     transition: transform 0.3s ease, color 0.5s ease;
   }
   
-  /* Cuando el candado se abre */
+  
   .unlock i {
-    transform: rotate(180deg); /* Efecto de giro */
-    color: #388e3c; /* Verde más claro cuando se desbloquea */
+    transform: rotate(180deg); 
+    color: #388e3c; 
   }
   
-  /* Mensaje de error */
+  
   .error-text {
     color: red;
     font-size: 14px;
     margin-bottom: 15px;
   }
   
-  /* Contenedor de los campos de entrada */
+  
   .input-container {
     margin-bottom: 15px;
     text-align: left;
   }
   
-  /* Campo de entrada */
+
   .input-field {
     width: 100%;
     padding: 10px;
@@ -79,7 +79,7 @@
     margin-top: 5px;
   }
   
-  /* Botón de inicio de sesión */
+  
   .submit-btn {
     width: 100%;
     padding: 12px;
@@ -92,14 +92,14 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Efecto hover del botón */
+  
   .submit-btn:hover {
     background-color: #388e3c;
   }
 
-  /* Login.css */
+  
 
-/* Estilo para el enlace de registro */
+
 .register-link {
   margin-top: 15px;
   font-size: 14px;
@@ -116,7 +116,7 @@
   text-decoration: underline;
 }
   
-  /* Responsive - Ajustar para pantallas pequeñas */
+  
   @media (max-width: 480px) {
     .login-card {
       padding: 20px;
