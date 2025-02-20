@@ -1,0 +1,137 @@
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Tarjeta de login */
+  .login-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Cabecera */
+  .login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .login-header h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Contenedor del icono del candado */
+  .lock-icon {
+    font-size: 50px;
+    color: #4caf50;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .lock-icon.unlock {
+    transform: rotate(180deg);
+    color: #388e3c; /* Color verde más oscuro para indicar que se desbloqueó */
+  }
+  
+  .lock-icon i {
+    font-size: 50px;
+    transition: transform 0.3s ease, color 0.5s ease;
+  }
+  
+  /* Cuando el candado se abre */
+  .unlock i {
+    transform: rotate(180deg); /* Efecto de giro */
+    color: #388e3c; /* Verde más claro cuando se desbloquea */
+  }
+  
+  /* Mensaje de error */
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* Contenedor de los campos de entrada */
+  .input-container {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Campo de entrada */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Botón de inicio de sesión */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto hover del botón */
+  .submit-btn:hover {
+    background-color: #388e3c;
+  }
+
+  /* Login.css */
+
+/* Estilo para el enlace de registro */
+.register-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.register-link a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+  
+  /* Responsive - Ajustar para pantallas pequeñas */
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 20px;
+    }
+  
+    .login-header i {
+      font-size: 40px;
+    }
+  
+    .login-header h2 {
+      font-size: 24px;
+    }
+  
+    .submit-btn {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,160 @@
+/* Fondo general */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ajustar el contenido al principio */
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Tarjeta principal */
+.dashboard-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative; /* Para el botón de cerrar sesión */
+}
+
+/* Título */
+.dashboard-title {
+    font-size: 36px; /* Título grande */
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Botón */
+.dashboard-button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Botón de crear caja */
+.create-box-button {
+    align-self: flex-start; /* Alinea el botón hacia la izquierda */
+    margin-left: 0; /* Elimina el margen para alinear bien */
+}
+
+/* Hover del botón */
+.dashboard-button:hover {
+    background: #388e3c;
+}
+
+/* Switch y su contenedor */
+.switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+/* Lista de cajas de seguridad */
+.security-box-list {
+    display: flex;
+    flex-direction: row; /* Las cajas en fila */
+    justify-content: flex-start; /* Alinea las cajas al principio */
+    overflow-x: auto; /* Permite desplazarse horizontalmente */
+    gap: 20px; /* Espacio entre cajas */
+    padding-bottom: 10px; /* Espacio para el scrollbar si es necesario */
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Tarjetas de las cajas de seguridad */
+.security-box-card {
+    flex-shrink: 0; /* Evita que las cajas se encojan */
+    width: 300px; /* Puedes ajustar el tamaño de las cajas según lo que necesites */
+    padding: 15px;
+    background: rgb(242, 217, 217);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+/* Tarjetas de las cajas de seguridad en hover */
+.security-box-card:hover {
+    transform: translateZ(100rem);
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.625);
+}
+
+/* Link a detalles */
+.security-box-link {
+    text-decoration: none;
+    color: #078bff;
+    font-weight: bold;
+}
+
+.security-box-link:hover {
+    text-decoration: underline;
+}
+
+/* Botón de cerrar sesión */
+.logout-button {
+    background: #d32f2f;
+    position: absolute; /* Lo posicionamos en la parte superior derecha */
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+}
+
+.logout-button:hover {
+    background: #b71c1c;
+}
+
+/* Formulario de creación de caja */
+.create-security-box-form {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 25rem;
+    text-align: left;
+  }
+  
+  .create-input {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 22rem;
+  }
+  
+  .create-button {
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .create-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .error-text {
+    color: red;
+  }
